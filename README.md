@@ -3,6 +3,8 @@ Proyecto base de un blog web desarrollado con Django.
 ## Descripción
 Este repositorio contiene la estructura inicial de un proyecto Django para construir un blog.  
 Incluye la configuración base del proyecto y una aplicación llamada `posts`.
+## Requisitos
+- Python 3.12 o superior (Django 6.1.2 no se instala en versiones anteriores).
 ## Instalación
 Clonar el repositorio:
 ```bash
