@@ -10,8 +10,9 @@
             <li>
                     {{ post.titulo }}
                 </a>
-                - {{ post.autor }}
+                - {{ post.autor }}: {{post.contenido|truncatewords:10}} 
             </li>
+
         {% endfor %}
     </ul>
 {% endblock %}
